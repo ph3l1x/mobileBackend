@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+//    return view('index');
+return 'HELLO PEOPLES';
 });
 
 Route::group(['prefix' => 'api'], function()
